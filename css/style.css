@@ -1,0 +1,161 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+#section-main #fb {
+  background: black;
+  color: #fff;
+  padding: 4px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#createimg {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+#sec-home-inc {
+  background: url("../img/pexels-pixabay-4158.jpg") no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 700px;
+}
+
+#sec-home-inc .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 700px;
+}
+
+#sec-home-inc #fk {
+  background: white;
+  color: #008ed6;
+  padding: 4px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#fkdark {
+  background: white;
+  color: #008ed6;
+  padding: 4px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+.fa {
+  font-size: 30px;
+  background: #fff;
+  padding: 4px;
+  border-radius: 20%;
+}
+
+#sec-home-inc .card-form {
+  opacity: 0.8;
+}
+
+#cardid {
+  margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+
+  /* for desktop */
+  /* code here */
+  #card-id {
+    margin-bottom: 25px;
+  }
+
+  #glowtop {
+    color: rgb(255, 255, 255);
+    -webkit-animation: glow .6s ease-in-out infinite alternate;
+    -moz-animation: glow .6s ease-in-out infinite alternate;
+    animation: glow .6s ease-in-out infinite alternate;
+  }
+
+  .navbar {
+    border-bottom: 3px solid #008ed6;
+    background: #20abf0;
+    opacity: 0.7;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  /* for tablet */
+  /* code here */
+  #glowtop {
+    color: rgb(255, 255, 255);
+    -webkit-animation: glow .6s ease-in-out infinite alternate;
+    -moz-animation: glow .6s ease-in-out infinite alternate;
+    animation: glow .6s ease-in-out infinite alternate;
+  }
+
+  #glow {
+    color: rgb(255, 255, 255);
+    -webkit-animation: glowtop .6s ease-in-out infinite alternate;
+    -moz-animation: glowtop .6s ease-in-out infinite alternate;
+    animation: glowtop .6s ease-in-out infinite alternate;
+  }
+}
+
+
+
+
+@media (max-width: 600px) {
+
+  /* for phone */
+  /* code here */
+
+  #head {
+    width: max-content;
+    height: 55px;
+  }
+
+  #nht {
+    color: rgb(255, 255, 255);
+    -webkit-animation: glowtop 1s ease-in-out infinite alternate;
+    -moz-animation: glowtop 1s ease-in-out infinite alternate;
+    animation: glowtop 1s ease-in-out infinite alternate;
+  }
+
+  #glow {
+    color: rgb(255, 255, 255);
+    -webkit-animation: glow .3s ease-in-out infinite alternate;
+    -moz-animation: glow .3s ease-in-out infinite alternate;
+    animation: glow .3s ease-in-out infinite alternate;
+  }
+
+  #fixednav {
+    opacity: .8;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0080, 0 0 40px #ff0000, 0 0 50px #ff0080, 0 0 60px #ff0101, 0 0 70px #ff0000;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff2d2d, 0 0 50px #ff0080, 0 0 60px #ff4da6, 0 0 70px #ff0080, 0 0 80px #ff0080;
+  }
+}
+
+@keyframes glowtop {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00b0e6, 0 0 40px #00b0e6, 0 0 50px #00b0e6, 0 0 60px #00b0e6, 0 0 70px #0077e6;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #43a0df, 0 0 40px #4d85ff, 0 0 50px #4deaff, 0 0 60px #4ddbff, 0 0 70px #4dd5ff, 0 0 80px #4dc7ff;
+  }
+}
