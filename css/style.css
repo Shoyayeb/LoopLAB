@@ -109,12 +109,6 @@ body {
 
   /* for phone */
   /* code here */
-
-  #head {
-    width: max-content;
-    height: 55px;
-  }
-
   #nht {
     color: rgb(255, 255, 255);
     -webkit-animation: glowtop 1s ease-in-out infinite alternate;
